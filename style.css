@@ -9,8 +9,8 @@ body {
     margin-top: 30vh;
     background-color: rgb(253, 171, 171);
     width: 47vw;
-    margin-left: 26vw;
     height: 15vw;
+    margin-left: 26vw;
     border-radius: 25px;
     animation: box 6s 100ms infinite linear;
 }
@@ -49,4 +49,25 @@ body {
     border-radius: 23px;
     background-color: rgb(241, 247, 185);
     float: left;
+}
+
+@media (min-width:0px) and (max-width:430px) {
+    .container {
+        margin-top: 70vw;
+        width: 75vw;
+        height: 35vw;
+        margin-left: 10vw;
+    }
+
+    .box {
+
+        margin: 1vw;
+        margin-top: 2vw;
+        width: 23vw;
+        height: 30vw;
+    }
+
+    .boxes {
+        font-size: 17vw;
+    }
 }
